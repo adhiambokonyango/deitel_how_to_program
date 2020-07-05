@@ -7,6 +7,9 @@ public class AccountTest {
         Scanner input = new Scanner((System.in));
         // create account object and assign it to my account
         Account myAccount = new Account();
+        AccountWithConstructor account1 = new AccountWithConstructor("mary");
+
+        System.out.printf("account1 name: %s%n", account1.getName());
 
         // display initial value of name null
         System.out.printf("initial name is : %s%n%n", myAccount.getName());
